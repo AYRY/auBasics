@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97738" started-at="2023-03-15T16:47:35 EET" finished-at="2023-03-15T16:49:13 EET">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="38584" started-at="2023-03-15T16:47:35 EET" finished-at="2023-03-15T16:48:14 EET">
+      <class name="yaray.AddRemoveItemBasket">
+        <test-method status="PASS" signature="setup()[pri:0, instance:yaray.AddRemoveItemBasket@1d29cf23]" name="setup" is-config="true" duration-ms="10458" started-at="2023-03-15T16:47:35 EET" finished-at="2023-03-15T16:47:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addRemoveItem()[pri:0, instance:yaray.AddRemoveItemBasket@1d29cf23]" name="addRemoveItem" duration-ms="26330" started-at="2023-03-15T16:47:46 EET" finished-at="2023-03-15T16:48:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:yaray.AddRemoveItemBasket@1d29cf23]" name="tearDown" is-config="true" duration-ms="1736" started-at="2023-03-15T16:48:12 EET" finished-at="2023-03-15T16:48:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- yaray.AddRemoveItemBasket -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="59136" started-at="2023-03-15T16:48:14 EET" finished-at="2023-03-15T16:49:13 EET">
+      <class name="yaray.OrderCompleteTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:yaray.OrderCompleteTest@480bdb19]" name="setup" is-config="true" duration-ms="6033" started-at="2023-03-15T16:48:14 EET" finished-at="2023-03-15T16:48:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="endToEndTest()[pri:0, instance:yaray.OrderCompleteTest@480bdb19]" name="endToEndTest" duration-ms="46150" started-at="2023-03-15T16:48:20 EET" finished-at="2023-03-15T16:49:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:yaray.OrderCompleteTest@480bdb19]" name="tearDown" is-config="true" duration-ms="6951" started-at="2023-03-15T16:49:06 EET" finished-at="2023-03-15T16:49:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- yaray.OrderCompleteTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
